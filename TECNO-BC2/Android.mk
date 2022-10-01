@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),TECNO-BC2)
+ifeq ($(TARGET_DEVICE),bc2)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
