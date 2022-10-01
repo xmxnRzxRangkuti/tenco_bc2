@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from TECNO-BC2 device
-$(call inherit-product, device/tecno/TECNO-BC2/device.mk)
+$(call inherit-product, device/tecno/bc2/device.mk)
 
-PRODUCT_DEVICE := TECNO-BC2
-PRODUCT_NAME := omni_TECNO-BC2
-PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO BC2
+PRODUCT_DEVICE := bc2
+PRODUCT_NAME := omni_bc2
+PRODUCT_BRAND := tenco
+PRODUCT_MODEL := tecno bc2
 PRODUCT_MANUFACTURER := tecno
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion-tecno-rev1
